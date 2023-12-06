@@ -24,7 +24,7 @@ struct ContentView: View {
         .onAppear {
             player.play()
             player.rate = 1.1
-            playAudio(rate: 0.89)
+            playAudio(rate: 0.9)
         }
         .edgesIgnoringSafeArea(.all)
     }
