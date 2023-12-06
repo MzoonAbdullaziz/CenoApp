@@ -10,6 +10,10 @@
 		5F6BDF5B2B1F68980068D517 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BDF5A2B1F68980068D517 /* Avatar.swift */; };
 		5F6BDF5F2B1F6AB90068D517 /* AchivmentPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BDF5E2B1F6AB90068D517 /* AchivmentPop.swift */; };
 		5F6BDF612B1F6D3D0068D517 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BDF602B1F6D3D0068D517 /* Scenario.swift */; };
+		5F9501662B210F0500B2AF8C /* achievement_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F9501652B210F0400B2AF8C /* achievement_sound.mp3 */; };
+		5F9501682B2118CB00B2AF8C /* CenoDemo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5F9501672B2118CB00B2AF8C /* CenoDemo.mov */; };
+		5F95016A2B211ADD00B2AF8C /* eyeblink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F9501692B211ADD00B2AF8C /* eyeblink.mp3 */; };
+		5FB16DAB2B211EE800936A1D /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5FB16DAA2B211EE800936A1D /* success.mp3 */; };
 		956241212B1F652E00549CE4 /* CenoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956241202B1F652E00549CE4 /* CenoAppApp.swift */; };
 		956241232B1F652E00549CE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956241222B1F652E00549CE4 /* ContentView.swift */; };
 		956241252B1F652F00549CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956241242B1F652F00549CE4 /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 		5F6BDF5A2B1F68980068D517 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 		5F6BDF5E2B1F6AB90068D517 /* AchivmentPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivmentPop.swift; sourceTree = "<group>"; };
 		5F6BDF602B1F6D3D0068D517 /* Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
+		5F9501652B210F0400B2AF8C /* achievement_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = achievement_sound.mp3; sourceTree = "<group>"; };
+		5F9501672B2118CB00B2AF8C /* CenoDemo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = CenoDemo.mov; path = CenoApp/CenoDemo.mov; sourceTree = "<group>"; };
+		5F9501692B211ADD00B2AF8C /* eyeblink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = eyeblink.mp3; path = ../../Downloads/eyeblink.mp3; sourceTree = "<group>"; };
+		5FB16DAA2B211EE800936A1D /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = success.mp3; path = ../../Downloads/success.mp3; sourceTree = "<group>"; };
 		9562411D2B1F652E00549CE4 /* CenoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		956241202B1F652E00549CE4 /* CenoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenoAppApp.swift; sourceTree = "<group>"; };
 		956241222B1F652E00549CE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +49,10 @@
 		956241142B1F652E00549CE4 = {
 			isa = PBXGroup;
 			children = (
+				5FB16DAA2B211EE800936A1D /* success.mp3 */,
+				5F9501692B211ADD00B2AF8C /* eyeblink.mp3 */,
+				5F9501672B2118CB00B2AF8C /* CenoDemo.mov */,
+				5F9501652B210F0400B2AF8C /* achievement_sound.mp3 */,
 				9562411F2B1F652E00549CE4 /* CenoApp */,
 				9562411E2B1F652E00549CE4 /* Products */,
 			);
@@ -135,6 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				956241282B1F652F00549CE4 /* Preview Assets.xcassets in Resources */,
+				5F9501662B210F0500B2AF8C /* achievement_sound.mp3 in Resources */,
+				5F95016A2B211ADD00B2AF8C /* eyeblink.mp3 in Resources */,
+				5F9501682B2118CB00B2AF8C /* CenoDemo.mov in Resources */,
+				5FB16DAB2B211EE800936A1D /* success.mp3 in Resources */,
 				956241252B1F652F00549CE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

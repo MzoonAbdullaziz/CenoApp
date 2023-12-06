@@ -6,18 +6,44 @@
 //
 
 import SwiftUI
+import AVKit
+import AVFoundation
 
 struct ContentView: View {
+    @State private var playSound = true
+    @State private var isPressed = false
+    @State var player = AVPlayer(url: Bundle.main.url(forResource: "CenoDemo", withExtension: "mov")!)
+    
+    @State var audioPlayer: AVAudioPlayer?
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            VideoPlayer(player: player)
+                .disabled(true)
         }
-        .padding()
+        .onAppear {
+            player.play()
+            player.rate = 1.1
+            playAudio(rate: 0.89)
+        }
+        .edgesIgnoringSafeArea(.all)
+    }
+    
+    func playAudio(rate: Float) {
+        if let soundURL = Bundle.main.url(forResource: "eyeblink", withExtension: "mp3") {
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: soundURL)
+                audioPlayer?.enableRate = true
+                audioPlayer?.rate = rate
+                audioPlayer?.prepareToPlay()
+                audioPlayer?.play()
+            } catch {
+                print("Error playing audio: \(error.localizedDescription)")
+            }
+        }
     }
 }
+
 
 #Preview {
     ContentView()
